@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a href="{{ url_for('aaa')}}">
+                <img src="{{ url_for('static', filename='/images/default.png')}}" alt="">
+                <p>aaa</p>
+            </a>
+        </li>
+        <li>
+            <a href="{{ url_for('bbb')}}">
+                <img src="{{ url_for('static', filename='/images/default.png')}}" alt="">
+                <p>bbb</p>
+            </a>
+        </li>
+        <li>
+            <a href="{{ url_for('ccc')}}">
+                <img src="{{ url_for('static', filename='/images/default.png')}}" alt="">
+                <p>ccc</p>
+            </a>
+        </li>
+    </ul>
+</body>
+
+</html>
