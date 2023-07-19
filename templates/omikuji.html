@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>おみくじ</title>
+</head>
+<body>
+    <p>今日の運勢は ... {{ result }}</p>
+    
+    {% if  result == "大吉!!" %}
+        <a href="https://www.google.co.jp/maps/?hl=ja"><img src="..\static\images\bashoukann1.jpg"></a>
+    {% elif result == "吉" %}
+        <p>まあまあ</p>
+    {% elif result == "凶..." %}
+        <p>ざんねん！</p>
+    {% endif %}
+
+</body>
+</html>

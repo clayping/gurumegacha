@@ -1,0 +1,8 @@
+===== Welcome to CRM Application =====
+[S]how: Show all users info
+[F]ind: Find user
+[A]dd: Add new user
+[E]dit: Edit user
+[D]elete: Dlete user
+[Q]uit: Quit application
+======================================
