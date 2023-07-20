@@ -1,0 +1,49 @@
+@charset "utf-8";
+body {
+    margin: initial;
+    display: initial;
+}
+.container1 {
+    background-image: url(images/平泉グルメガチャ.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 720px;
+}
+.container2 {
+    background-image: url(/photo/店舗表示画面.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 720px;
+}
+.img_nm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop_img{
+    width: 50%;
+    max-height: 50%;
+    margin-top: 40px;
+}
+.btn-wrapper {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+.btn-gacha {
+    color: white;
+    background-color: #239B76;
+    text-decoration: none;
+    display: inline-block;
+    /* position: absolute; */
+    font-size: 50px;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 80%;
+}
+#h1 {
+
+}
