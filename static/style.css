@@ -11,7 +11,7 @@ body {
     min-height: 720px;
 }
 .container2 {
-    background-image: url(/photo/店舗表示画面.png);
+    background-image: url(images/店舗表示画面.png);
     background-position: center;
     background-size: cover;
     width: 100%;
