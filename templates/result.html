@@ -1,17 +1,21 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta name=”viewport” content=”width=device-width,initial-scale=1.0″>
     <title>平泉グルメガチャ</title>
 </head>
 <body>
     <script src="{{ url_for('static', filename='script.js') }}"></script>
     <div class="container2">
         <div  class="img_nm">
-        <a href="{{ url }}"><img id="image" class="shop_img" src="static/images/{{ image }}"></a>
-        <h1>{{ name }}</h1>
+        <div>
+            <img id="image" class="shop_img" src="static/images/{{ image }}">
+        </div>
+        <a href="{{ url }}" class="btn-shop">{{ name }}</a>
         </div>
     </div>
 </body>

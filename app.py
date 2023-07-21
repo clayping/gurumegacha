@@ -20,7 +20,7 @@ def index():
 
 @app.route("/result")
 def result():
-    id = random.randint(1, 4)
+    id = random.randint(1, 24)
     rest = Restaurant.get_by_id(id)
     name = rest.name
     image = rest.image
