@@ -1,28 +1,23 @@
 import os
 from dotenv import load_dotenv
 from playhouse.db_url import connect
-from peewee import Model, IntegerField, CharField
+from peewee import Model, IntegerField, CharField, TextField
 
-# .envを読み取り
 load_dotenv()
 
 # データベースの接続設定
-db = connect(
-    os.environ.get("DATABASE", "sqlite:///crm_cli.sqlite")
-)  # 環境変数が無い場合は"sqlite:///crm_cli.sqlite"に接続
+db = connect(os.environ.get("DATABASE", "sqlite:///db.sqlite"))
 
-# 接続NGの場合はメッセージを表示
 if not db.connect():
     print("接続NG")
     exit()
 
 
 class Restaurant(Model):
-    """Restaurant Model"""
-
-    id = IntegerField(primary_key=True)  # idは自動で追加されるが明示
-    name = CharField()  # 文字列(255文字まで)
-    image = CharField()  # 数値型
+    id = IntegerField(primary_key=True)
+    name = CharField()
+    image = CharField()
+    url = TextField()
 
     class Meta:
         database = db

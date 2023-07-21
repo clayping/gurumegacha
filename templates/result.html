@@ -7,9 +7,11 @@
     <title>平泉グルメガチャ</title>
 </head>
 <body>
-    <div class="container1">
-        <div class="btn-wrapper">
-        <a href="result" class="btn-gacha">ガチャる!</a>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <div class="container2">
+        <div  class="img_nm">
+        <a href="{{ url }}"><img id="image" class="shop_img" src="static/images/{{ image }}"></a>
+        <h1>{{ name }}</h1>
         </div>
     </div>
 </body>
