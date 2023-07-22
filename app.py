@@ -9,6 +9,7 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
+
 # 坂さんいつもありがとう！
 # @app.route("/omikuji")
 # def omikuji():
@@ -16,6 +17,11 @@ def index():
 #     result = random.choice(["大吉!!", "吉", "凶..."])
 #     # テンプレートでresult変数を使用する
 #     return render_template("omikuji.html", result=result)
+
+
+@app.route("/capsule")
+def capsule():
+    return render_template("capsule.html")
 
 
 @app.route("/result")
