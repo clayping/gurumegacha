@@ -14,14 +14,6 @@ body {
 }
 
 
-.container1 {
-    background-image: url(images/平泉グルメガチャ.png);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    min-height: 720px;
-}
-
 .container2 {
     background-image: url(images/店舗表示画面.png);
     background-position: center;
@@ -105,7 +97,7 @@ body {
 @media screen and (max-width: 600px) {
     .btn-gacha {
         margin: 0 auto;
-        margin-top: 1000px;
+        margin-top: 958px;
     }
 }
 
