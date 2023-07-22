@@ -1,4 +1,5 @@
 import random
+import pygame
 from config import Restaurant
 from flask import Flask, render_template
 
@@ -22,6 +23,24 @@ def index():
 @app.route("/capsule")
 def capsule():
     return render_template("capsule.html")
+
+
+def play_sound(sound_file):
+    # pygameの初期化
+    pygame.init()
+
+    # 効果音を読み込む
+    sound = pygame.mixer.Sound(sound_file)
+
+    # 効果音を再生
+    sound.play()
+
+
+# 効果音ファイルのパスを指定
+    sound_file_path = (
+        "/Users/odayuuta/Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/ガチャガチャ・カプセルトイ.mp3"
+    )
+    play_sound(sound_file_path)
 
 
 @app.route("/result")
