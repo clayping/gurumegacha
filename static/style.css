@@ -88,7 +88,7 @@ body {
     border-bottom: 2px solid #ccc100;
 }
 
-.gacha-img {
+/* .gacha-img {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -96,7 +96,7 @@ body {
   border: 1px solid #ccc;
   width: 443px;
   height: 260px;
-}
+} */
 
 
 @media screen and (max-width: 600px) {
