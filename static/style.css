@@ -28,12 +28,10 @@ body {
     min-height: 720px;
 }
 
-
 .capsule_module {
     background-image: url(../static/images/capsule.gif);
     text-align: center;
 }
-
 
 .img_nm {
     display: grid;
@@ -64,9 +62,9 @@ body {
     width: 100px;
     height: 100px;
     padding: 0;
-    background-color: #e6d900;
-    -webkit-box-shadow: 0 5px 0 #817b00;
-    box-shadow: 0 5px 0 #817b00;
+    background-color: #E6D900;
+    -webkit-box-shadow: 0 5px 0 #817B00;
+    box-shadow: 0 5px 0 #817B00;
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
@@ -79,15 +77,15 @@ body {
 .btn-gacha:hover {
     -webkit-transform: translate(0, 3px);
     transform: translate(0, 3px);
-    -webkit-box-shadow: 0 2px 0 #e6d900;
-    box-shadow: 0 2px 0 #e6d900;
+    -webkit-box-shadow: 0 2px 0 #E6D900;
+    box-shadow: 0 2px 0 #E6D900;
 }
 
 
 .btn-shop {
     color: #000;
-    background-color: #fff100;
-    border-bottom: 5px solid #ccc100;
+    background-color: #FFF100;
+    border-bottom: 5px solid #CCC100;
     text-decoration: none;
     width: 30%;
     font-size: 1.7em;
@@ -129,11 +127,17 @@ body {
 
 
 @media screen and (max-width: 600px) {
+    .capsule_module {
+        background-image: url(../static/images/capsule_module_sp.gif);
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
     .container2 {
         background-image: url(images/sp_shop.png);
     }
 }
-
 
 @media screen and (max-width: 600px) {
     .shop_img {
@@ -142,7 +146,6 @@ body {
         margin-top: 50%;
     }
 }
-
 
 @media screen and (max-width: 480px) {
     .btn-shop {
