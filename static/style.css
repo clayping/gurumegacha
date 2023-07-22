@@ -123,3 +123,9 @@ body {
         margin-top: 50%;
     }
 }
+
+@media screen and (max-width: 380px) {
+    .btn-shop {
+    width: 80%;
+    }
+}
