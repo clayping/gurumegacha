@@ -13,6 +13,12 @@ body {
     min-height: 720px;
 }
 
+.capsule_module {
+    background-image: url(../static/images/capsule.gif);
+    background-size: cover;
+    width: 100%;
+    min-height: 720px;
+}
 
 .container2 {
     background-image: url(images/店舗表示画面.png);
@@ -21,6 +27,13 @@ body {
     width: 100%;
     min-height: 720px;
 }
+
+
+.capsule_module {
+    background-image: url(../static/images/capsule.gif);
+    text-align: center;
+}
+
 
 .img_nm {
     display: grid;
@@ -62,12 +75,14 @@ body {
     font-size: 18px;
 }
 
+
 .btn-gacha:hover {
     -webkit-transform: translate(0, 3px);
     transform: translate(0, 3px);
     -webkit-box-shadow: 0 2px 0 #e6d900;
     box-shadow: 0 2px 0 #e6d900;
 }
+
 
 .btn-shop {
     color: #000;
@@ -81,12 +96,14 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
 .btn-shop:hover {
     margin-top: 3px;
     color: #000;
-    background: # fff20a;
+    background: #fff20a;
     border-bottom: 2px solid #ccc100;
 }
+
 
 @media screen and (max-width: 600px) {
     .container1 {
@@ -94,12 +111,22 @@ body {
     }
 }
 
+
 @media screen and (max-width: 600px) {
     .btn-gacha {
         margin: 0 auto;
         margin-top: 958px;
     }
 }
+
+
+@media screen and (max-width: 600px) {
+    .capsule_module {
+    background-image: url(../static/images/capsule_module_sp.gif);
+    max-width: 100%;
+    }
+}
+
 
 @media screen and (max-width: 600px) {
     .container2 {
