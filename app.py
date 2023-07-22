@@ -24,9 +24,6 @@ def capsule():
     return render_template("capsule.html")
 
 
-
-
-
 @app.route("/result")
 def result():
     id = random.randint(1, 24)
