@@ -13,10 +13,6 @@ body {
     min-height: 720px;
 }
 
-@media screen and (max-width: 600px)
-.container1 {
-
-}
 
 .container1 {
     background-image: url(images/平泉グルメガチャ.png);
@@ -34,14 +30,14 @@ body {
     min-height: 720px;
 }
 
-.img_nm{
+.img_nm {
     display: grid;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.shop_img{
+.shop_img {
     width: 50%;
     max-height: 50%;
     margin-top: 40px;
@@ -67,19 +63,63 @@ body {
     -webkit-box-shadow: 0 5px 0 #817b00;
     box-shadow: 0 5px 0 #817b00;
     font-size: 50px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
-    margin-top: 61%;
+    margin-top: 62%;
     margin-left: 65%;
     font-size: 18px;
 }
 
 .btn-gacha:hover {
-  -webkit-transform: translate(0, 3px);
-  transform: translate(0, 3px);
-  -webkit-box-shadow: 0 2px 0 #e6d900;
-  box-shadow: 0 2px 0 #e6d900;
+    -webkit-transform: translate(0, 3px);
+    transform: translate(0, 3px);
+    -webkit-box-shadow: 0 2px 0 #e6d900;
+    box-shadow: 0 2px 0 #e6d900;
 }
 
-#h1 {
+.btn-shop {
+    color: #000;
+    background-color: #fff100;
+    border-bottom: 5px solid #ccc100;
+    text-decoration: none;
+    width: 30%;
+    font-size: 1.7em;
+    display: inline-block;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn-shop:hover {
+    margin-top: 3px;
+    color: #000;
+    background: # fff20a;
+    border-bottom: 2px solid #ccc100;
+}
+
+@media screen and (max-width: 600px) {
+    .container1 {
+        background-image: url(images/sp_backimage.png);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .btn-gacha {
+        margin:0 auto;
+        margin-top: 1000px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container2 {
+        background-image: url(images/sp_shop.png);
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .shop_img {
+        width: 80%;
+        max-height: 70%;
+        margin-top: 50%;
+    }
 }
