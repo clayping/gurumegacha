@@ -1,6 +1,6 @@
 import sqlite3
 # データベースに接続
-conn = sqlite3.connect('example.sqlite')
+conn = sqlite3.connect('db.sqlite')
 # カーソルオブジェクトを取得
 cursor = conn.cursor()
 # テーブルを作成するSQLクエリ
