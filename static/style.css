@@ -104,7 +104,7 @@ body {
 
 @media screen and (max-width: 600px) {
     .btn-gacha {
-        margin:0 auto;
+        margin: 0 auto;
         margin-top: 1000px;
     }
 }
@@ -125,9 +125,8 @@ body {
 }
 
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 480px) {
     .btn-shop {
-    width: 80%;
+        width: 80%;
     }
 }
-
