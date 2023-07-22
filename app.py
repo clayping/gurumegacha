@@ -9,7 +9,7 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-
+# 坂さんいつもありがとう！
 # @app.route("/omikuji")
 # def omikuji():
 #     result = "大吉!!"
