@@ -68,7 +68,7 @@ body {
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
-    margin-top: 62%;
+    margin-top: 56%;
     margin-left: 65%;
     font-size: 18px;
 }
@@ -108,7 +108,7 @@ body {
 @media screen and (max-width: 600px) {
     .btn-gacha {
         margin: 0 auto;
-        margin-top: 958px;
+        margin-top: 1000px;
     }
 }
 
