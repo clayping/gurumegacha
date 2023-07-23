@@ -121,6 +121,7 @@ body {
 @media screen and (max-width: 600px) {
     .capsule_module {
     background-image: url(../static/images/capsule_module_sp.gif);
+    background-position: center;
     max-width: 100%;
     }
 }
